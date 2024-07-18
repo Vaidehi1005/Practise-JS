@@ -5,4 +5,5 @@ class Car {
     }
 }
 
-let 
+let c = new Car("Audi", "RS6")
+console.log(c)
