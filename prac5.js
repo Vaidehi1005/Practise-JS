@@ -15,5 +15,5 @@ class Animal {
     }
 
     const dog = new Dog("Dog");
-    dog.speak(); // Dog barks.
+    dog.speak(); 
   
