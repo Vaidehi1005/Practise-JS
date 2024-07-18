@@ -1,24 +1,25 @@
 class RailwayForm {
     submit() {
-        alert(this.name + ": Your Form Submitted")
+        alert(this.name + ": Your Form Submitted for train number:  " + this.trainno)
     }
     cancel() {
-        alert(this.name+ ": This form is cancelled");
+        alert(this.name + ": This form is cancelled for train number:    " + this.trainno);
     }
-    fill(givenname){
-        this.name=givenname  //this.name k che k object ni property che name means aa object ni ek property associate thai jase name k ane enu naam je object aapse .fill(givenname) e name property ne assign karse je pn naam hase e 
+    fill(givenname, trainno) {
+        this.name = givenname
+        this.trainno = trainno
     }
 }
 // create a form for Harry 
 let harryForm = new RailwayForm()
 // fill the form with Harrys's details
-harryForm.fill("Harry")
+harryForm.fill("Vaidhi", 456789)
 
 
 // create a form for Rohan
 let rohanForm = new RailwayForm()
 // fill the form with Rohan's details
-rohanForm.fill("Rohan")
+rohanForm.fill("Rohan", 100200)
 
 harryForm.submit()
 rohanForm.submit()
