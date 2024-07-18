@@ -3,14 +3,19 @@ class RailwayForm {
         alert("Form Submitted")
     }
     cancel() {
-        alert("This form is cancelled");
+        alert(this.name+ ": This form is cancelled");
+    }
+    fill(givenname){
+        this.name=givenname  //this.name k che k object ni property che name means aa object ni ek property associate thai jase name k ane enu naam je object aapse .fill(givenname) e name property ne assign karse je pn naam hase e 
     }
 }
 
-let harry = new RailwayForm()
-let rohan = new RailwayForm()
+let harryForm = new RailwayForm()
+harryForm.fill("Harry")
+let rohanForm = new RailwayForm()
+rohanForm.fill("Rohan")
 
-harry.submit()
-rohan.submit()
-rohan.cancel()
+harryForm.submit()
+rohanForm.submit()
+rohanForm.cancel()
 
