@@ -4,4 +4,4 @@ class Math {
     }
 }
 
-console.log(Math.mul(2, 3)); 
+console.log(Math.mul(9, 78)); 
