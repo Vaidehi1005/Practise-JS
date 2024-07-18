@@ -3,7 +3,7 @@ class RailwayForm {
         alert(this.name + ": Your Form Submitted for train number:  " + this.trainno)
     }
     cancel() {
-        alert(this.name + ": This form is cancelled for train number:    " + this.trainno);
+        alert(this.name + ": This form is cancelled for train number:  " + this.trainno);
     }
     fill(givenname, trainno) {
         this.name = givenname
@@ -13,7 +13,7 @@ class RailwayForm {
 // create a form for Harry 
 let harryForm = new RailwayForm()
 // fill the form with Harrys's details
-harryForm.fill("Vaidhi", 456789)
+harryForm.fill("Vaidehi", 456789)
 
 
 // create a form for Rohan
