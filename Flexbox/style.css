@@ -64,21 +64,25 @@ h1 {
     background-color: darkblue;
     justify-content: center;
 }
+
 #fb10 {
     display: flex;
     background-color: darkblue;
     justify-content: flex-start;
 }
+
 #fb11 {
     display: flex;
     background-color: darkblue;
     justify-content: flex-end;
 }
+
 #fb12 {
     display: flex;
     background-color: darkblue;
     justify-content: space-around;
 }
+
 #fb13 {
     display: flex;
     background-color: darkblue;
