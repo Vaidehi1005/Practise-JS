@@ -131,3 +131,10 @@ h1 {
     align-content: space-between;
     background-color: darkblue;
 }
+#fb20 {
+    display: flex;
+    height: 600px;
+    flex-wrap: wrap;
+    align-content: space-around;
+    background-color: darkblue;
+}
