@@ -74,3 +74,13 @@ h1 {
     background-color: darkblue;
     justify-content: flex-end;
 }
+#fb12 {
+    display: flex;
+    background-color: darkblue;
+    justify-content: space-around;
+}
+#fb13 {
+    display: flex;
+    background-color: darkblue;
+    justify-content: space-between;
+}
