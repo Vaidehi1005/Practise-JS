@@ -131,10 +131,43 @@ h1 {
     align-content: space-between;
     background-color: darkblue;
 }
+
 #fb20 {
     display: flex;
     height: 600px;
     flex-wrap: wrap;
     align-content: space-around;
+    background-color: darkblue;
+}
+
+#fb21 {
+    display: flex;
+    height: 600px;
+    flex-wrap: wrap;
+    align-content: stretch;
+    background-color: darkblue;
+}
+
+#fb22 {
+    display: flex;
+    height: 600px;
+    flex-wrap: wrap;
+    align-content: center;
+    background-color: darkblue;
+}
+
+#fb23 {
+    display: flex;
+    height: 600px;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    background-color: darkblue;
+}
+
+#fb24 {
+    display: flex;
+    height: 600px;
+    flex-wrap: wrap;
+    align-content: flex-end;
     background-color: darkblue;
 }
