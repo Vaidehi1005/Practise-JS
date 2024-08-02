@@ -52,8 +52,15 @@ h1 {
     flex-wrap: wrap-reverse;
     background-color: darkblue;
 }
-#fb8{
+
+#fb8 {
     display: flex;
     background-color: darkblue;
     flex-flow: row wrap;
+}
+
+#fb9 {
+    display: flex;
+    background-color: darkblue;
+    justify-content: center;
 }
