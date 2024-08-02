@@ -88,3 +88,34 @@ h1 {
     background-color: darkblue;
     justify-content: space-between;
 }
+
+#fb14 {
+    display: flex;
+    height: 250px;
+    background-color: darkblue;
+    align-items: center;
+}
+#fb15 {
+    display: flex;
+    height: 250px;
+    background-color: darkblue;
+    align-items: flex-start;
+}
+#fb16 {
+    display: flex;
+    height: 250px;
+    background-color: darkblue;
+    align-items: flex-end;
+}
+#fb17 {
+    display: flex;
+    height: 250px;
+    background-color: darkblue;
+    align-items: stretch;
+}
+#fb18 {
+    display: flex;
+    height: 250px;
+    background-color: darkblue;
+    align-items: baseline;
+}
