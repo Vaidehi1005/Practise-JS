@@ -37,11 +37,18 @@ h1 {
 
 #fb5 {
     display: flex;
-   flex-wrap: wrap;
+    flex-wrap: wrap;
     background-color: darkblue;
 }
+
 #fb6 {
     display: flex;
-   flex-wrap:  nowrap;
+    flex-wrap: nowrap;
+    background-color: darkblue;
+}
+
+#fb7 {
+    display: flex;
+    flex-wrap: wrap-reverse;
     background-color: darkblue;
 }
